@@ -1,0 +1,68 @@
+p {
+    font-size: 25px !important;
+}
+h1, h2{
+    font-family: 'Montserrat', sans-serif !important;
+    text-shadow: 2px 2px 8px #000000 !important;
+    font-size: 50px !important;
+}
+
+h4 {
+    font-family: 'Goldman', cursive !important;
+    color: #FFD500 !important;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+}
+
+.barraM {
+    background-color: #540445;
+    width: 50%;
+    transform: skewX(-15deg) !important;
+}
+
+.barraMadaptadores {
+    background-color: #EDEC00;
+    width: 50%;
+    transform: skewX(-15deg) !important;
+}
+
+.barraMcables {
+    background-color: #3D006C;
+    width: 100%;
+    transform: skewX(-15deg) !important;
+}
+
+.card-link {
+    color: #FFD500 !important;
+}
+
+.card-link:hover {
+    color: #e100ff !important;
+}
+
+/* MediaQueries */
+
+@media (max-width: 576px) {
+    .cajaCel {
+        top: 200px !important;
+    }
+
+    .logoCel {
+        width: 50%;
+    }
+
+    .flechaAbajo {
+        display: none;
+    }
+    .botonWp {
+        position: fixed;
+        right: 10px;
+        height: 300px;
+    }
+    .parrafoCel {
+        font-size: 5rem !important;
+    }
+}
