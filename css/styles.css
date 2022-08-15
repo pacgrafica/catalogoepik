@@ -43,11 +43,12 @@ h4 {
     color: #e100ff !important;
 }
 
+
 /* MediaQueries */
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
     .cajaCel {
-        top: 200px !important;
+        top: 120px !important;
     }
 
     .logoCel {
@@ -64,5 +65,40 @@ h4 {
     }
     .parrafoCel {
         font-size: 5rem !important;
+    }
+    .container-fluid {
+        top: 0px !important;
+    }
+}
+
+@media and (min-width: 576px) and (max-width: 767px) {
+    img .alturaImagen {
+        display: none !important;
+        width: 0% !important;
+        height: 100px !important;
+
+    }
+
+    .cajaCel {
+        top: 0px !important;
+    }
+
+    .logoCel {
+        width: 50%;
+    }
+
+    .flechaAbajo {
+        display: none;
+    }
+    .botonWp {
+        position: fixed;
+        right: 10px;
+        height: 300px;
+    }
+    .parrafoCel {
+        font-size: 5rem !important;
+    }
+    .container-fluid {
+        top: 0px !important;
     }
 }
